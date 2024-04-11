@@ -4,9 +4,13 @@ My personal color scheme for neovim, extrapolated from my local generic color sc
 
 It's dark and does not have too many colors in general, but tries to still be easy to grok.
 
+![image](https://github.com/puttehi/nvim-puttehi-dark/assets/19575408/2c46cc91-1510-40b1-8472-ca7afb7d3db7)
+
+- Image taken with my Neovim configuration: https://github.com/puttehi/nvim-lua
+
 ## Extras
 
-It also supports [Lualine](https://github.com/nvim-lualine/lualine.nvim/blob/master/THEMES.md#auto). Use "auto" or "puttehi_dark" to enable.
+It also supports [Lualine](https://github.com/nvim-lualine/lualine.nvim/blob/master/THEMES.md#auto). Use `"auto"` or `"puttehi_dark"` to enable.
 
 ## Usage
 
