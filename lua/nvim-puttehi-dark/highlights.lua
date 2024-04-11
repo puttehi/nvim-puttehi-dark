@@ -285,9 +285,9 @@ local function make_highlights(t)
         cssTSError = { link = "cssClassName" },
 
         -- vim.lsp.buf.document_highlight()
-        LspReferenceText = { bg = t.high_contrast.bg, fg = t.high_contrast.fg },
-        LspReferenceRead = { bg = t.high_contrast.bg, fg = t.high_contrast.fg },
-        LspReferenceWrite = { bg = t.high_contrast.bg, fg = t.high_contrast.fg },
+        LspReferenceText = { bg = t.contrast_bg, fg = t.contrast_fg },
+        LspReferenceRead = { bg = t.contrast_bg, fg = t.contrast_fg },
+        LspReferenceWrite = { bg = t.contrast_bg, fg = t.contrast_fg },
 
         -- lsp-highlight-codelens
         LspCodeLens = { fg = t.comment }, -- virtual text of code lens
