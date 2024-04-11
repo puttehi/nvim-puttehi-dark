@@ -52,7 +52,7 @@ function M.setup(opts)
     opts = opts or {}
     M.palette = require("nvim-puttehi-dark.palette")
     M.theme = require("nvim-puttehi-dark.theme")
-    M.colors = vim.tbl_deep_extend("force", require("nvim-puttehi-dark.highlights").make(M.theme), opts.colors)
+    M.colors = vim.tbl_deep_extend("force", require("nvim-puttehi-dark.highlights").make(M.theme), opts.colors or {})
 end
 
 function M.apply()
