@@ -350,5 +350,5 @@ local function make_highlights(t)
 end
 
 return {
-    make_highlights = make_highlights,
+    make = make_highlights,
 }
