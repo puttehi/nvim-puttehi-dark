@@ -24,6 +24,7 @@ local theme = {
     text_bright = "text_silver", -- Lighter than text
     glowing = "text_white", -- Lightest text available
     nontext = "blue_dark", -- Generic symbols etc. nontext things
+    default = "text_none",
     -- Coding-specific
     const = "text_silver",
     const2 = "yellow_dark",
