@@ -1,6 +1,16 @@
-local t = require("nvim-puttehi-dark.theme")
+local M = require("nvim-puttehi-dark")
+local t = M.theme
+
+---@class HighlightValue Plugin configuration for the VIM highlight (should be parsed further)
+---@field bg? PaletteKey Background color
+---@field fg? PaletteKey Foreground color
+---@field sp? PaletteKey Special color
+---@field link? PaletteKey Link to existing highlight name, overrides other options.
+---@field style? string Style attributes like "bold". See :h highlight-gui
 
 ---@class HighlightConfig Highlight configuration to be mapped into VIM API
+---@field [string] HighlightValue
+---@enum (key) HighlightKey VIM :highlight name
 local highlights = {
     ColorColumn = { bg = t.comment },
     Conceal = { bg = t.default },
