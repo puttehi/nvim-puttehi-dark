@@ -4,6 +4,10 @@ My personal color scheme for neovim, extrapolated from my local generic color sc
 
 It's dark and does not have too many colors in general, but tries to still be easy to grok.
 
+## Extras
+
+It also supports [Lualine](https://github.com/nvim-lualine/lualine.nvim/blob/master/THEMES.md#auto). Use "auto" or "puttehi_dark" to enable.
+
 ## Usage
 
 ### Lazy
