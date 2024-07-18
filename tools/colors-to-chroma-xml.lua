@@ -38,7 +38,7 @@ local chroma_to_nvim_tbl = {
     ["Keyword"] = "Keyword",
     ["KeywordConstant"] = "Constant",
     ["KeywordDeclaration"] = "Keyword",
-    ["KeywordNamespace"] = "@namespace",
+    ["KeywordNamespace"] = "Keyword",
     ["KeywordPseudo"] = "Keyword", -- or cssPseudoClass?
     ["KeywordReserved"] = "Keyword", -- ??
     ["KeywordType"] = "Type",
@@ -59,7 +59,7 @@ local chroma_to_nvim_tbl = {
     ["NameLabel"] = "@label",
     ["NameNamespace"] = "@namespace",
     ["NameOperator"] = "@operator",
-    ["NameOther"] = "Keyword",
+    ["NameOther"] = "@namespace",
     -- NamePseudo
     ["NameProperty"] = "@property",
     ["NameTag"] = "@tag",

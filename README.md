@@ -40,3 +40,7 @@ opts = {
 }
 ```
 
+## Chroma XML generator
+
+Open `./tools/colors-to-chroma-xml.lua` in Neovim and `:so`. Check `:Fidget history` to copy-paste.
+
